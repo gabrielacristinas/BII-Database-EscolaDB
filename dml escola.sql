@@ -14,4 +14,25 @@ CREATE TABLE Alunos (
 INSERT INTO Alunos (Nome, Idade, Email)
 	VALUES ('Joao', 26, 'joao@email.com');
 
+INSERT INTO Alunos (Nome, Idade, Email)
+	VALUES
+		('Luiza', 13, 'luiza@email.com'),
+		('Manoel', 32, 'manoel@email.com');
 
+	--UPDATE Alunos
+		--SET Idade = 19;
+
+	--UPDATE Alunos
+		--SET Idade = 13
+		--WHERE Nome = 'luiza';
+
+	UPDATE Alunos
+		SET Idade = 26
+		WHERE Nome = 'Manoel';
+
+INSERT INTO Alunos (Nome, Idade, Email)
+	VALUES ('Manoel', 17, 'manoel2@email.com');
+
+	UPDATE Alunos
+		SET Idade = 32
+		WHERE Nome = 'Manoel';
